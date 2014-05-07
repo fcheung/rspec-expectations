@@ -11,19 +11,10 @@
 AccessModifierIndentation:
   Enabled: false
 
-# Offense count: 6
-# Cop supports --auto-correct.
-Alias:
-  Enabled: false
-
 # Offense count: 3
 # Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle, SupportedStyles.
 AlignParameters:
-  Enabled: false
-
-# Offense count: 35
-CaseEquality:
   Enabled: false
 
 # Offense count: 5
@@ -31,28 +22,12 @@ CaseEquality:
 CaseIndentation:
   Enabled: false
 
-# Offense count: 1
-# Configuration parameters: CountComments.
-ClassLength:
-  Max: 118
-
-# Cop supports --auto-correct.
-# Configuration parameters: PreferredMethods.
-CollectionMethods:
-  Enabled: true
-  PreferredMethods:
-    reduce: 'inject'
-
 # Offense count: 3
 CyclomaticComplexity:
   Max: 10
 
 # Offense count: 4
 Documentation:
-  Enabled: false
-
-# Offense count: 3
-DoubleNegation:
   Enabled: false
 
 # Offense count: 19
@@ -64,21 +39,10 @@ EmptyLinesAroundBody:
 EnsureReturn:
   Enabled: false
 
-# Offense count: 1
-# Configuration parameters: Exclude.
-FileName:
-  Enabled: false
-
 # Offense count: 2
 # Configuration parameters: EnforcedStyle, SupportedStyles.
 FormatString:
   Enabled: false
-
-# Offense count: 8
-# Cop supports --auto-correct.
-# Configuration parameters: SupportedStyles.
-HashSyntax:
-  EnforcedStyle: hash_rockets
 
 # Offense count: 2
 # Configuration parameters: MaxLineLength.
