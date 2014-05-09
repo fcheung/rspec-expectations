@@ -6,6 +6,10 @@ inherit_from:
 Alias:
   Enabled: false
 
+AccessModifierIndentation:
+  Enabled: true
+  EnforcedStyle: outdent
+
 # Warns when the class is excessively long.
 ClassLength:
   Max: 118 # RaiseError matcher.

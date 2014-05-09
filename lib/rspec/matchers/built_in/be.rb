@@ -75,7 +75,7 @@ module RSpec
 
       # @private
       module BeHelpers
-        private
+      private
 
         def args_to_s
           @args.empty? ? "" : parenthesize(inspected_args.join(', '))
