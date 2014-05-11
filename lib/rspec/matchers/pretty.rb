@@ -17,14 +17,14 @@ module RSpec
         return " #{words.inspect}" unless words
         words = Array(words).map { |w| to_word(w) }
         case words.length
-          when 0
-            ""
-          when 1
-            " #{words[0]}"
-          when 2
-            " #{words[0]} and #{words[1]}"
-          else
-            " #{words[0...-1].join(', ')}, and #{words[-1]}"
+        when 0
+          ""
+        when 1
+          " #{words[0]}"
+        when 2
+          " #{words[0]} and #{words[1]}"
+        else
+          " #{words[0...-1].join(', ')}, and #{words[-1]}"
         end
       end
 
