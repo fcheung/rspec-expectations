@@ -1,14 +1,18 @@
 inherit_from:
   - rubocop-todo.yml
 
+AccessModifierIndentation:
+  Enabled: true
+  EnforcedStyle: outdent
+
 # "Use alias_method instead of alias"
 # We're fine with `alias`.
 Alias:
   Enabled: false
 
-AccessModifierIndentation:
+AlignParameters:
   Enabled: true
-  EnforcedStyle: outdent
+  EnforcedStyle: with_first_parameter
 
 # Warns when the class is excessively long.
 ClassLength:

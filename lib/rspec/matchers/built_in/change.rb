@@ -87,8 +87,8 @@ module RSpec
         end
 
         def raise_block_syntax_error
-          raise SyntaxError,
-            "The block passed to the `change` matcher must use `{ ... }` instead of do/end"
+          raise SyntaxError, "The block passed to the `change` matcher must " \
+            "use `{ ... }` instead of do/end"
         end
 
         def positive_failure_reason

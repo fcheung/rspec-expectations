@@ -14,8 +14,8 @@ module RSpec
 
         # @private
         def does_not_match?(_actual)
-          raise NotImplementedError,
-            "`expect(...).not_to matcher.#{conjunction} matcher` is not supported"
+          raise NotImplementedError, "`expect(...).not_to " \
+            "matcher.#{conjunction} matcher` is not supported"
         end
 
         # @api private
