@@ -32,6 +32,12 @@ CollectionMethods:
   PreferredMethods:
     reduce: 'inject'
 
+# We use YARD to enforce documentation. It works better than rubocop's
+# enforcement...rubocop complains about the places we re-open
+# `RSpec::Expectations` and `RSpec::Matchers` w/o having doc commments.
+Documentation:
+  Enabled: false
+
 DoubleNegation:
   Enabled: false
 

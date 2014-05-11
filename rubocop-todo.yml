@@ -9,10 +9,6 @@
 CyclomaticComplexity:
   Max: 10
 
-# Offense count: 4
-Documentation:
-  Enabled: false
-
 # Offense count: 19
 # Cop supports --auto-correct.
 EmptyLinesAroundBody:
