@@ -41,7 +41,6 @@ module RSpec
         # Simple class for memoizing actual/expected for this matcher
         # and examining the match
         class ExistenceTest < Struct.new(:actual, :expected)
-
           # @api private
           # @return [Boolean]
           def valid_test?
@@ -81,7 +80,6 @@ module RSpec
             @predicates ||= [:exist?, :exists?].select { |p| actual.respond_to?(p) }
           end
         end
-
       end
     end
   end

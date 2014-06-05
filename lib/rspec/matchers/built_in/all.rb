@@ -5,7 +5,6 @@ module RSpec
       # Provides the implementation for `all`.
       # Not intended to be instantiated directly.
       class All < BaseMatcher
-
         # @private
         attr_reader :matcher, :failed_objects
 
@@ -71,7 +70,6 @@ module RSpec
           @matcher = @matcher.clone
           super
         end
-
       end
     end
   end

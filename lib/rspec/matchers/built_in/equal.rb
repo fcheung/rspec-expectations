@@ -5,7 +5,6 @@ module RSpec
       # Provides the implementation for `equal`.
       # Not intended to be instantiated directly.
       class Equal < BaseMatcher
-
         # @api private
         # @return [String]
         def failure_message

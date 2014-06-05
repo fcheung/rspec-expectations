@@ -1,6 +1,5 @@
 module RSpec
   module Expectations
-
     # @private
     module ExpectationHelper
       def self.check_message(msg)

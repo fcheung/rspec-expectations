@@ -5,7 +5,6 @@ module RSpec
       # Provides the implementation for `be_truthy`.
       # Not intended to be instantiated directly.
       class BeTruthy < BaseMatcher
-
         # @api private
         # @return [String]
         def failure_message
@@ -29,7 +28,6 @@ module RSpec
       # Provides the implementation for `be_falsey`.
       # Not intended to be instantiated directly.
       class BeFalsey < BaseMatcher
-
         # @api private
         # @return [String]
         def failure_message
@@ -53,7 +51,6 @@ module RSpec
       # Provides the implementation for `be_nil`.
       # Not intended to be instantiated directly.
       class BeNil < BaseMatcher
-
         # @api private
         # @return [String]
         def failure_message

@@ -5,7 +5,6 @@ module RSpec
       # Provides the implementation for `contain_exactly` and `match_array`.
       # Not intended to be instantiated directly.
       class ContainExactly < BaseMatcher
-
         # @api private
         # @return [String]
         def failure_message

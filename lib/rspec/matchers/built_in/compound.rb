@@ -68,7 +68,6 @@ module RSpec
         # @api public
         # Matcher used to represent a compound `and` expectation.
         class And < self
-
           # @api private
           # @return [String]
           def failure_message
@@ -98,7 +97,6 @@ module RSpec
         # @api public
         # Matcher used to represent a compound `or` expectation.
         class Or < self
-
           # @api private
           # @return [String]
           def failure_message
