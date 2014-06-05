@@ -25,10 +25,7 @@ module RSpec
         end
 
         diff = differ.diff(actual, expected)
-
-        unless diff.empty?
-          message = "#{message}\nDiff:#{diff}"
-        end
+        message = "#{message}\nDiff:#{diff}" unless diff.empty?
 
         raise RSpec::Expectations::ExpectationNotMetError.new(message)
       end

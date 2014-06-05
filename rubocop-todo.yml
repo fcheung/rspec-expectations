@@ -18,11 +18,6 @@ EnsureReturn:
 FormatString:
   Enabled: false
 
-# Offense count: 2
-# Configuration parameters: MaxLineLength.
-IfUnlessModifier:
-  Enabled: false
-
 # Offense count: 1
 # Cop supports --auto-correct.
 IndentationWidth:
